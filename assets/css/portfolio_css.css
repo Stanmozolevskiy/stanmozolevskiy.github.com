@@ -1,0 +1,29 @@
+.photos {
+    height: 168px;
+    width: 300px;
+    margin: 20px;
+    position: relative;
+    float: left;
+    z-index: 3;
+}
+
+.photos img {
+    height: 168px;
+    width: 300px;
+    position: relative;
+    float: left;
+    align-self: auto
+}
+
+.photos h3 {
+    position: absolute;
+    color: white;
+    background: #4aaaa5;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    opacity: 0.9;
+    z-index: 4;
+    bottom: 20px;
+    margin-bottom: 0;
+}
